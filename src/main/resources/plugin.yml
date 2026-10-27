@@ -1,0 +1,29 @@
+name: Varo
+version: 6.3.1
+main: de.robinnathmann.minecraft.varo.main.Main
+author: Robin Nathmann
+depend: [ProtocolLib, NoteBlockAPI, DiscordSRV]
+commands:
+  start:
+  ping:
+  ban:
+  wartelobby:
+  kick:
+  koordinatenstrike:
+  debug:
+  finish:
+  addteam:
+  invsee:
+  protectblock:
+  randomchest:
+  allowspectatorjoin:
+  unban:
+  respawn:
+  restore:
+  inventoryclear:
+  memberexception:
+  worldborderdecrease:
+  setrespawn:
+  zeit:
+  broadcast:
+    aliases: [bc]

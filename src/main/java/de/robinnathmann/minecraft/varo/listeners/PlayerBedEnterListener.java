@@ -1,0 +1,17 @@
+package de.robinnathmann.minecraft.varo.listeners;
+
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerBedEnterEvent;
+
+public class PlayerBedEnterListener implements Listener {
+	
+	@EventHandler
+	public void onPlayerBedEnter(PlayerBedEnterEvent e) {
+		
+		e.setCancelled(true);
+		e.getPlayer().sendMessage("§cDu darfst das Item §eBED §cnicht benutzen");
+		
+	}
+
+}
